@@ -1,3 +1,5 @@
-# Oak Puzzle — privacy policy
+# NazarPashazade.github.io
 
-The privacy policy page for the Oak Puzzle game, published with GitHub Pages.
+Project pages for apps published by Nazar Pashazade.
+
+- [Oak Puzzle privacy policy](oak-puzzle-privacy/index.html)
