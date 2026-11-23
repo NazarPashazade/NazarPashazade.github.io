@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Atropia Studio - Oak Puzzle links</title>
+        <title>Atropia Studio - games and links</title>
         <meta
             name="description"
-            content="Calm puzzle games by a solo developer. Get Oak Puzzle on Google Play and follow Atropia Studio on TikTok, Instagram, YouTube and Facebook."
+            content="Games by a solo developer. Get Oak Puzzle on Google Play and follow Atropia Studio on TikTok, Instagram, YouTube and Facebook."
         />
         <style>
             body {
@@ -16,29 +16,89 @@
                 font: 17px/1.5 -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
             }
             main {
-                max-width: 420px;
+                max-width: 440px;
                 margin: 0 auto;
-                padding: 40px 20px 56px;
+                padding: 44px 20px 56px;
                 text-align: center;
-            }
-            img {
-                width: 120px;
-                height: 120px;
-                border-radius: 28px;
-                box-shadow: 0 8px 22px rgba(80, 50, 20, 0.25);
             }
             h1 {
                 font-family: Georgia, serif;
-                font-size: 30px;
-                margin: 18px 0 4px;
+                font-size: 34px;
+                margin: 0 0 4px;
+            }
+            h2 {
+                font-size: 13px;
+                letter-spacing: 0.12em;
+                text-transform: uppercase;
+                margin: 32px 0 10px;
+                color: #7a5a44;
             }
             p {
-                margin: 0 0 28px;
+                margin: 0;
+            }
+            .game {
+                display: flex;
+                align-items: center;
+                gap: 14px;
+                padding: 14px;
+                margin: 10px 0;
+                border-radius: 22px;
+                background: #fbf0de;
+                border: 2px solid #d9c3a3;
+                text-align: left;
+            }
+            .game img {
+                width: 64px;
+                height: 64px;
+                border-radius: 16px;
+                box-shadow: 0 4px 12px rgba(80, 50, 20, 0.25);
+            }
+            .game strong {
+                display: block;
+                font-size: 18px;
+            }
+            .game span {
+                font-size: 14px;
+                color: #7a5a44;
+            }
+            .game .grow {
+                flex: 1;
+            }
+            a.get {
+                padding: 10px 16px;
+                border-radius: 999px;
+                background: linear-gradient(#d2744b, #9e3f24);
+                color: #fff;
+                font-weight: 700;
+                font-size: 14px;
+                text-decoration: none;
+                white-space: nowrap;
+            }
+            .soon {
+                font-size: 13px;
+                font-weight: 700;
+                color: #7a5a44;
+                white-space: nowrap;
+            }
+            .mark {
+                width: 64px;
+                height: 64px;
+                border-radius: 16px;
+                background: #4a3426;
+                color: #fbf0de;
+                font-weight: 800;
+                font-size: 12px;
+                line-height: 1.1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                flex: none;
             }
             a.button {
                 display: block;
-                margin: 12px 0;
-                padding: 15px 20px;
+                margin: 10px 0;
+                padding: 14px 20px;
                 border-radius: 999px;
                 background: #fbf0de;
                 border: 2px solid #d9c3a3;
@@ -47,13 +107,11 @@
                 text-decoration: none;
             }
             a.button:hover,
-            a.button:focus-visible {
+            a.button:focus-visible,
+            a.get:hover,
+            a.get:focus-visible {
                 border-color: #9a5a3c;
-            }
-            a.primary {
-                background: linear-gradient(#d2744b, #9e3f24);
-                border-color: #fbf0de;
-                color: #fff;
+                outline: none;
             }
             footer {
                 margin-top: 32px;
@@ -66,21 +124,40 @@
     </head>
     <body>
         <main>
-            <img src="logo.png" alt="Oak Puzzle: four stone blocks with olive leaves by the sea" />
             <h1>Atropia Studio</h1>
-            <p>Calm puzzle games by a solo developer.</p>
-            <a
-                class="button primary"
-                href="https://play.google.com/store/apps/details?id=com.nazarpashazade.oakpuzzle&amp;referrer=utm_source%3Dlinks%26utm_campaign%3Dlinks-page"
-                >Get Oak Puzzle on Google Play</a
-            >
+            <p>Games made by a solo developer.</p>
+
+            <h2>Games</h2>
+            <div class="game">
+                <img src="logo.png" alt="" />
+                <div class="grow">
+                    <strong>Oak Puzzle</strong>
+                    <span>A calm block puzzle</span>
+                </div>
+                <a
+                    class="get"
+                    href="https://play.google.com/store/apps/details?id=com.nazarpashazade.oakpuzzle&amp;referrer=utm_source%3Dlinks%26utm_campaign%3Dlinks-page"
+                    >Google Play</a
+                >
+            </div>
+            <div class="game">
+                <div class="mark">IRON WARRANT</div>
+                <div class="grow">
+                    <strong>Iron Warrant</strong>
+                </div>
+                <span class="soon">Coming soon</span>
+            </div>
+
+            <h2>Follow</h2>
             <a class="button" href="https://www.tiktok.com/@atropia.studio">TikTok</a>
             <a class="button" href="https://www.instagram.com/atropia.studio/">Instagram</a>
             <a class="button" href="https://www.youtube.com/@AtropiaStudio">YouTube</a>
             <a class="button" href="https://www.facebook.com/atropia.studio">Facebook</a>
+
             <footer>
-                <a href="mailto:atropia.studio@gmail.com?subject=Oak%20Puzzle">atropia.studio@gmail.com</a>
-                &middot; <a href="../oak-puzzle-privacy/">Privacy policy</a>
+                <a href="mailto:atropia.studio@gmail.com">atropia.studio@gmail.com</a>
+                &middot; <a href="../oak-puzzle-privacy/">Oak Puzzle privacy</a>
+                &middot; <a href="../iron-warrant-privacy/">Iron Warrant privacy</a>
             </footer>
         </main>
     </body>
