@@ -2,6 +2,7 @@
 
 Project pages for apps published by Nazar Pashazade.
 
+- [Atropia Studio links](links/index.html)
 - [Oak Puzzle privacy policy](oak-puzzle-privacy/index.html)
 - [IRON WARRANT privacy policy](iron-warrant-privacy/index.html)
 - [IRON WARRANT terms of use](iron-warrant-terms/index.html)
