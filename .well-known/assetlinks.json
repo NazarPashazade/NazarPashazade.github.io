@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ironwarrant.game",
+      "sha256_cert_fingerprints": [
+        "75:94:EC:6A:87:66:86:80:41:E7:F4:E6:37:64:21:DC:C1:58:E0:0E:18:89:0C:C6:66:0D:EB:79:B7:3C:C3:41"
+      ]
+    }
+  }
+]
